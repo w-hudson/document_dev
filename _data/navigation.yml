@@ -2,7 +2,7 @@
 main:
   - title: "ZTAP"
     url: https://portal.threatanalytics.io/
-  - title: "CRITICAL**START**"
+  - title: "CRITICAL<b>START</b>"
     url: https://criticalstart.com
   # - title: "Sample Posts"
   #   url: /year-archive/
