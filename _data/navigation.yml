@@ -12,3 +12,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: Getting Started with ZTAP
+    Children:
+     - title: "Dashboard"
+       url: /docs/dashboard/
+     - title: "Alerts"
+       url: /docs/alerts/
