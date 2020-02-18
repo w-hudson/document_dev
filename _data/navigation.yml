@@ -17,7 +17,7 @@ main:
 docs:
   - title: Getting Started with ZTAP
     Children:
-     - title: Dashboard
-       url: w-hudson.github.io/docs/Dashboard/
-     - title: Alerts
-       url: w-hudson.github.io/docs/Alerts/
+      - title: Dashboard
+        url: /docs/Dashboard/
+      - title: Alerts
+        url: /docs/Alerts/
