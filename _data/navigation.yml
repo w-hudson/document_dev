@@ -17,6 +17,6 @@ docs:
   - title: Getting Started with ZTAP
     Children:
      - title: "Dashboard"
-       url: /docs/dashboard/
+       url: /docs/dashboard/dashboard.md
      - title: "Alerts"
-       url: /docs/alerts/
+       url: /docs/alerts/alerts.md
