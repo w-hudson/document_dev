@@ -13,10 +13,11 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
+# sidebar
 docs:
   - title: Getting Started with ZTAP
     Children:
-     - title: "Dashboard"
+     - title: Dashboard
        url: w-hudson.github.io/docs/Dashboard/
-     - title: "Alerts"
+     - title: Alerts
        url: w-hudson.github.io/docs/Alerts/
