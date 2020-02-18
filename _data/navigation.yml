@@ -18,6 +18,6 @@ docs:
   - title: Getting Started with ZTAP
     Children:
       - title: Dashboard
-        url: /docs/dashboard/dashboard.html
+        url: /w-hudson.github.io/docs/dashboard/dashboard.md
       - title: Alerts
-        url: /docs/alerts/alerts.html
+        url: /w-hudson.github.io/docs/alerts/alerts.md
