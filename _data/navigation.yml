@@ -16,6 +16,7 @@ main:
 # sidebar
 docs:
   - title: Getting Started with ZTAP
+    url: /w-hudson.github.io/docs/dashboard/dashboard.md
     Children:
       - title: Dashboard
         url: /w-hudson.github.io/docs/dashboard/dashboard.md
