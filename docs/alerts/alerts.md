@@ -14,12 +14,7 @@ The **Alerts** screen is where most of the work in ZTAP is done. The main view l
    - When the incident was created and last updated
 3. Organization & Assignment: The organization associated with the incident and the group or user within that organization which has been assigned to the incident
 4. Trigger event details: A high-level look at the event that triggered the incident – this information can often give an analyst enough information to make a decision, especially if there is only one event in the incident details
-5. Navigation bar: Allows an analyst to move between incidents, notification schedules, filters, lists, etc
-6. Action bar: Allows an analyst to take action on an incident without needing to navigate into the incident itself
-   - Whitelist Trigger: Will whitelist the indicator(s) for the trigger event shown – can automatically close incidents. A popup will display on the page after selecting: 
-
-   PLEASE NOTE - At this time there is no confirmation to the "Whitelist Trigger" action - in addition, any whitelist is effectively creating a filter on only the process md5 and filtering all events for that md5 to Tier 3 (Whitelist) - this can cause MAJOR visibility problems if something like cmd.exe or powershell.exe is whitelisted. When in doubt, ask.
-
+5. Action bar: Allows an analyst to take action on an incident without needing to navigate into the incident itself
    - Close: Closes the incident – the analyst will be prompted to enter a reason manually and whether or not the incident was resolved:
 
    - Escalate: Escalates an incident to another user / group – this is used to request assistance from senior analysts on undetermined incidents for further review. See section 2.1 for more information
@@ -44,8 +39,9 @@ The **Alerts** screen is where most of the work in ZTAP is done. The main view l
 
 <!--- End search section to relocate -->
 
-8. Incident details page: Will navigate to an incident and show all events in a detailed format:
+6. Incident details page: Will navigate to an incident and show all events in a detailed format. See "working with individual alerts"
 
+<!--- Move to individual alerts section -->
    There are four different tabs per incident with information in each tab:
 
    - Trigger Events: These are events that caused the incident to be created and are considered to be "high-value" from an investigation perspective. An event with the crosshair symbol (  ) indicates that this was the original event that created the incident and is the "main" event displayed in the ZTAP UI
@@ -57,18 +53,22 @@ The **Alerts** screen is where most of the work in ZTAP is done. The main view l
 
     You can edit the Alert title from this screen or the general ZTAP UI by clicking on "Edit:"
 
-9. TAP (Threat Analysis Plugin) Actions: This section is semi-automates investigation procedures. An analyst can get information such as VirusTotal hits, binary information pulled from the Carbon Black instance, network connections the binary made (if applicable), and child process information (if applicable) for the binary. The icons look like the following: 
+<!--- end move -->
 
-10. Manage Saved Searches: This gear icon allows for management of saved searches - the ZTAP allows for users to save particular searches for quick reference later. If there is a search term already in the search bar, an option appears to potentially name or save the current search parameters. Users can also delete or load searches from this screen (as well as type the saved search into the search bar). An example is below:
+7. TAP (Threat Analysis Plugin) Actions: This section is semi-automates investigation procedures. An analyst can get information such as VirusTotal hits, binary information pulled from the Carbon Black instance, network connections the binary made (if applicable), and child process information (if applicable) for the binary. The icons look like the following: 
 
-11. Bulk Actions: This feature allows for a user to bulk close or bulk assign incidents to themselves. This will apply to the currently-displayed search in the search bar. Please note that if there is no search designated, bulk actions will apply to all incidents. Closing incidents will show the "Close Incident" dialogue box (shown above) with an optional message by the current user which will be applied to all incidents affected, and once "Close Incident" is selected it will prompt for confirmation.
+<!--- move to search section -->
+8. Manage Saved Searches: This gear icon allows for management of saved searches - the ZTAP allows for users to save particular searches for quick reference later. If there is a search term already in the search bar, an option appears to potentially name or save the current search parameters. Users can also delete or load searches from this screen (as well as type the saved search into the search bar). An example is below:
+<!--- end move -->
+
+8. Bulk Actions: This feature allows for a user to bulk close or bulk assign incidents to themselves. This will apply to the currently-displayed search in the search bar. Please note that if there is no search designated, bulk actions will apply to all incidents. Closing incidents will show the "Close Incident" dialogue box with an optional message by the current user which will be applied to all incidents affected, and once "Close Incident" is selected it will prompt for confirmation.
 
 <!--- Remove User Menu and document separately, maybe as part of Dashboard -->
 
 12. User Menu: The user menu allows a user to view / change information about their user profile and organization, access support, and log out.
 <!--- End User menu section -->
 
-13. See All Comments: This shows the total number of comments an incident contains and allows the user to pivot into the comments window. The most recent comment is usually shown at the bottom of the incident. 
+9. See All Comments: This shows the total number of comments an incident contains and allows the user to pivot into the comments window. The most recent comment is usually shown at the bottom of the incident. 
 
 <!--- Remove the last two items and document separately -->
 
