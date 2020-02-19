@@ -73,9 +73,9 @@ End search section to relocate -->
 9. **TAP (Threat Analytics Plugin) Actions**: This section is semi-automates investigation procedures. An analyst can get information such as VirusTotal hits, binary information pulled from the Carbon Black instance, network connections the binary made (if applicable), and child process information (if applicable) for the binary. The icons look like the following:
 
 10. **Action bar**: Allows an analyst to take action on an incident without needing to navigate into the incident itself
-   - Close: Closes the incident – the analyst will be prompted to enter a reason manually and whether or not the incident was resolved:
-   - Escalate: Escalates an incident to another user / group – this is used to request assistance from senior analysts on undetermined incidents for further review. See section 2.1 for more information
-   - Assign to me: Assigns an incident to the current analyst – an incident should be first assigned to the logged-in analyst in order for them to escalate (this maintains audit integrity)
+    - Close: Closes the incident – the analyst will be prompted to enter a reason manually and whether or not the incident was resolved:
+    - Escalate: Escalates an incident to another user / group – this is used to request assistance from senior analysts on undetermined incidents for further review. See section 2.1 for more information
+    - Assign to me: Assigns an incident to the current analyst – an incident should be first assigned to the logged-in analyst in order for them to escalate (this maintains audit integrity)
 
 <!--- Remove the last two items and document separately 
 
