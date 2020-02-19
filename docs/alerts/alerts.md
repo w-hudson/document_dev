@@ -5,7 +5,7 @@
 The **Alerts** screen is where most of the work in ZTAP is done. The main view lists the currently open alerts, based on any default filtering criteria you have selected.
 
 ## Alerts interface
-<!---insert new screencap of Alerts interface -->
+![Alerts main screen](https://github.com/w-hudson/document_dev/blob/master/media/Alerts_1.png)
 
 1. Incident count: The total number of incidents that match the current filter in the search bar (#7) – if the filter is blank then this number will be the total number of incidents for all organizations the current user is a member of.
 2. Incident details: This section shows:
