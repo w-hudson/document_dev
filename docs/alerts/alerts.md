@@ -13,7 +13,7 @@ The **Alerts** screen is where most of the work in ZTAP is done. The main view l
    **IMPORTANT**: If no search filter options are designated, the selected action will apply to **all** Alerts. Ensure that your search filters are correct before you perform any bulk actions.
    
 3. **Alert details page**: Open the individual Alert and show all related events in a detailed format. See [Working with individual Alerts](#working-with-individual-alerts). You can also click the icon to copy a link to the alert to your system's clipboard.
-4. **Created/Updated date and status**: Shows the status of the incident (Open, Assigned, Reviewing, Closed) and when the incident was created and last updated.
+4. **Created/Updated date and status**: Shows the status of the incident (Open, Assigned, Reviewing, Closed) and when the incident was created or updated.
 5. **Organization & Assignment**: Shows the organization associated with the incident and the assigned group or user.
 6. **Trigger event details**: A high-level look at the specific event that triggered the Alert.
 7. **Comments**: This shows the total number of comments on an Alert. The most recent comment is usually shown at the bottom of the Alert.  
@@ -29,28 +29,15 @@ Click the title of an individual alert to open the Alert details screen.
 
 ![Alert_Details](https://github.com/w-hudson/document_dev/blob/master/media/Alert_Detail_1.png)
 
-1. **Incident number and Categories**:
-2. **Created date and status**:
-3. **Alert name**:
-4. **Product and Assignment**:
+1. **Incident number and Categories**: Displays the individual Incident number associated with the Alert and any Categories that have been assigned by the system or by a CRITICAL**START** analyst.
+2. **Created/Updated date and status**: Shows the status of the incident (Open, Assigned, Reviewing, Closed) and when the incident was created or updated.
+3. **Alert name and Tags**: The name of the Alert as it was created by the individual product that sent the Alert data. You can  manually change the name of the alert. This section also shows any tags that have been assigned to the Alert. 
+4. **Product and Assignment**: Shows the endpoint product that generated the trigger event for the Alert and what group(s) the Alert is assigned to.
 5. **Event Information**: The information on these tabs can be useful for obtaining additional background information when you are investigating an Alert.
-   - **Trigger Events**: These are events that caused the incident to be created and are considered to be "high-value" from an investigation perspective.
-   - **Oberservations**: These are events that do not create an incident, but are instead designed to be helpful events that provide additional context. These types of events have been explicitly filtered by a senior analyst
+   - **Trigger Events**: These are the specific events that caused the incident to be created and are considered "high-value" from an investigation perspective.
+   - **Oberservations**: Events that do not create an incident, but could provide additional context. These types of events have been explicitly filtered by a senior CRITICAL**START** analyst.
    - **Whitelisted Events**: Events that have been explicitly whitelisted via the "Whitelist Trigger", the "Whitelist" button from within an incident, or a matching filter set to recategorize to Tier 3 will go into this section. These events may have been whitelisted from the incident they created, or they were whitelisted from another incident entirely
    - **Alert Timeline**: This view shows the specific details around events being added to the incident, groups / users being assigned, and other information with regards to the timeline of the incident
-   - **Comments**: This view shows all comments pertaining to this incident with visibility to both analyst and client.
-   - **Audit Log**: This page shows the historical timeline of actions and who performed them.
-6. **Additional Actions**: 
-
-
-
-:
-
-   - Trigger Events: These are events that caused the incident to be created and are considered to be "high-value" from an investigation perspective. An event with the crosshair symbol (  ) indicates that this was the original event that created the incident and is the "main" event displayed in the ZTAP UI
-   - Observations: These are events that do not create an incident, but are instead designed to be helpful events that provide additional context. These types of events have been explicitly filtered by a senior analyst
-   - Whitelisted Events: Events that have been explicitly whitelisted via the "Whitelist Trigger", the "Whitelist" button from within an incident, or a matching filter set to recategorize to Tier 3 will go into this section. These events may have been whitelisted from the incident they created, or they were whitelisted from another incident entirely
-   - Incident Timeline: This view shows the specific details around events being added to the incident, groups / users being assigned, and other information with regards to the timeline of the incident
-   - Comments: This view shows all comments pertaining to this incident with visibility to both analyst and client. It is possible for private comments to be made so the other party can't see them. This is an option to provide advice/opinions so all shifts can be on the same page. 
-   - Audit Log: This page shows the historical timeline of actions and who performed them. 
-
-   You can edit the Alert title from this screen or the general ZTAP UI by clicking on "Edit:"
+   - **Comments**: This view shows all comments pertaining to this incident. Comments are the easiest way for customers and analysts to communicate regarding the status of an Alert.
+   - **Audit Log**: This page shows the historical timeline of actions and the user who performed them.
+6. **Additional Actions**: These actions allow a CRITICAL**START** analyst to either whitelist an event or create a new Filter for future matching events.
