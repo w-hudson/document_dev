@@ -34,10 +34,12 @@ Click the title of an individual alert to open the Alert details screen.
 3. **Alert name and Tags**: The name of the Alert as it was created by the individual product that sent the Alert data. You can  manually change the name of the alert. This section also shows any tags that have been assigned to the Alert. 
 4. **Product and Assignment**: Shows the endpoint product that generated the trigger event for the Alert and what group(s) the Alert is assigned to.
 5. **Event Information**: The information on these tabs can be useful for obtaining additional background information when you are investigating an Alert.
+   
    - **Trigger Events**: These are the specific events that caused the incident to be created and are considered "high-value" from an investigation perspective.
    - **Oberservations**: Events that do not create an incident, but could provide additional context. These types of events have been explicitly filtered by a senior CRITICAL**START** analyst.
    - **Whitelisted Events**: Events that have been explicitly whitelisted via the "Whitelist Trigger", the "Whitelist" button from within an incident, or a matching filter set to recategorize to Tier 3 will go into this section. These events may have been whitelisted from the incident they created, or they were whitelisted from another incident entirely
    - **Alert Timeline**: This view shows the specific details around events being added to the incident, groups / users being assigned, and other information with regards to the timeline of the incident
    - **Comments**: This view shows all comments pertaining to this incident. Comments are the easiest way for customers and analysts to communicate regarding the status of an Alert.
    - **Audit Log**: This page shows the historical timeline of actions and the user who performed them.
+   
 6. **Additional Actions**: These actions allow a CRITICAL**START** analyst to either whitelist an event or create a new Filter for future matching events.
