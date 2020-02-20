@@ -2,7 +2,7 @@
 
 <!--- Adapted from ZTAP UI Overview on Confluence -->
 
-The **Alerts** screen is where most of the work in ZTAP is done. The main view lists the currently open alerts, based on any default search filtering criteria you have selected. For information on working in an individual alert, see [Working with individual Alerts](#working-with-individual-alerts).
+The **Alerts** screen is where most of the work in ZTAP is done. The main view lists the currently open alerts, based on any default search filtering criteria you have selected. For information on individual Alerts, see [Working with individual Alerts](#working-with-individual-alerts).
 
 ## Alerts interface
 ![Alerts main screen](https://github.com/w-hudson/document_dev/blob/master/media/Alerts_1.png)
