@@ -20,4 +20,4 @@ docs:
       - title: Dashboard
         url: /docs/dashboard/dashboard.md
       - title: Alerts
-        url: /docs/alerts/
+        url: /docs/alerts/alerts.md
