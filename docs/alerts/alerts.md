@@ -1,3 +1,7 @@
+---
+layout: posts
+---
+
 # Alerts
 
 <!--- Adapted from ZTAP UI Overview on Confluence -->
