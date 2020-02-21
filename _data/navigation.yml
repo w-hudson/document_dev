@@ -5,7 +5,7 @@ main:
     description: "Open the ZTAP Portal"
   - title: "CRITICAL<b>START</b>"
     url: https://criticalstart.com
-    description: "CRITICAL<B>START</b> home page"
+    description: "CRITICALSTART home page"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
